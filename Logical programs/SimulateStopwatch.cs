@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Diagnostics;
 
-namespace Logical_programs
+namespace Logicalprograms
 {
     class SimulateStopwatch
     {

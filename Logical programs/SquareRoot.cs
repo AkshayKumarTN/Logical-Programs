@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logical_programs
+namespace Logicalprograms
 {
     class SquareRoot
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logical_programs
+namespace Logicalprograms
 {
     class ToBinary
     {
@@ -14,10 +14,10 @@ namespace Logical_programs
             Console.Write("Enter the Decimal Number : ");
             number = Convert.ToInt32(Console.ReadLine());
 
-            Decimal_To_Binary_Conversion();
+            DecimalToBinaryConversion();
         }
 
-        public static void Decimal_To_Binary_Conversion()
+        public static void DecimalToBinaryConversion()
         {
             
             int i = 0;

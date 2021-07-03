@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Logical_programs
+namespace Logicalprograms
 {
     class Program
     {

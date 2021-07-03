@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Logical_programs
+namespace Logicalprograms
 {
     class MonthlyPayment
     {
@@ -15,10 +15,10 @@ namespace Logical_programs
             double r = Convert.ToDouble(Console.ReadLine());
             Console.Write("Enter the Years to pay off (Y) : ");
             double y = Convert.ToDouble(Console.ReadLine());
-            Calculate_Monthly_Payment(p, r, y);
+            CalculateMonthlyPayment(p, r, y);
         }
 
-        public static void Calculate_Monthly_Payment(double p,double r, double y)
+        public static void CalculateMonthlyPayment(double p,double r, double y)
         {
             double n = 12 * y;
             double r1 = r / (12 * 100);
